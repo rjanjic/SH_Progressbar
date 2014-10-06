@@ -1,8 +1,9 @@
 #!/bin/bash
 #
 # Projectname	- BASH PROGRESS BAR
-# Version		- 1.0
-# Author		- Radovan Janjic <rade@it-radionica.com>
+# Version	- 1.0
+# Author	- Radovan Janjic <hi@radovanjanjic.com>
+# Link		- https://github.com/uzi88/SH_Progressbar
 #
 # PROGRESS BAR
 # $1 - Progress text (before)
