@@ -1,8 +1,7 @@
-sh_progressbar
-==============
+BASH progressbar function
+=========================
 
-Linux bash progress bar function
-
+## Examples
 
 `````bash
 #!/bin/bash
