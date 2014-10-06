@@ -5,6 +5,9 @@ Linux bash progress bar function
 
 
 `````bash
+#!/bin/bash
+source "$(dirname "$0")/progressbar.sh";
+
 echo Example 1
 
 for i in {0..100}
@@ -15,6 +18,9 @@ done
 `````
 
 `````bash
+#!/bin/bash
+source "$(dirname "$0")/progressbar.sh";
+
 echo Example 2
 progressbar 'Exporting...' 20 
 sleep 1
@@ -29,6 +35,9 @@ sleep 2
 `````
 
 `````bash
+#!/bin/bash
+source "$(dirname "$0")/progressbar.sh";
+
 echo Example 3
 
 for i in {0..123}
@@ -38,6 +47,9 @@ done
 `````
 
 `````bash
+#!/bin/bash
+source "$(dirname "$0")/progressbar.sh";
+
 echo Example 4
 
 for i in {0..12345}
@@ -47,6 +59,9 @@ done
 `````
 
 `````bash
+#!/bin/bash
+source "$(dirname "$0")/progressbar.sh";
+
 echo Example 5
 for j in {0..3}
 do
